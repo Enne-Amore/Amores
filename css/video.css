@@ -59,33 +59,61 @@ body {
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 0.8em;
+        font-size: 1em;
     }
     .video {
+        width: 65%;
         min-height: 150px;
+    }
+    .link a h3 {
+        width: 85%;
+        margin: 3% 7%;
+    }
+    .voltar img {
+        width: 14%;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 768px) {
     body {
-        font-size: 0.9em;
+        font-size: 1.4em;
     }
     .video {
-        min-height: 200px;
+        width: 75%;
+        min-height: 250px;
+    }
+    .link a h3 {
+        width: 70%;
+        margin: 3% 14.5%;
+    }
+    .voltar img {
+        width: 12%;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        font-size: 1em;
+        font-size: 1.5em;
     }
     .video {
-        min-height: 250px;
+        width: 70%;
+        min-height: 300px;
+    }
+    .link a h3 {
+        width: 60%;
+        margin: 3% 20%;
+    }
+    .voltar img {
+        width: 12%;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     body {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
     .video {
         min-height: 300px;
+    }
+    .link a h3 {
+        width: 45%;
+        margin: 1% 27%;
     }
 }
