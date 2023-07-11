@@ -64,33 +64,39 @@ body {
     }
     .link a h3 {
         width: 85%;
-        margin: 3% 7.5%;
+        margin: 8% 7.5%;
     }
     .voltar img {
         width: 18%;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        font-size: 2em;
+    }
     .video {
         width: 85%;
         min-height: 300px;
     }
     .link a h3 {
         width: 75%;
-        margin: 3% 12%;
+        margin: 6% 12%;
     }
     .voltar img {
         width: 14%;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        font-size: 2em;
+    }
     .video {
         width: 85%;
         min-height: 400px;
     }
     .link a h3 {
         width: 60%;
-        margin: 3% 20%;
+        margin: 6% 20%;
     }
     .voltar img {
         width: 12%;
