@@ -18,7 +18,7 @@ body {
 }
 
 .video {
-    width: 50%;
+    width: 55%;
     min-height: 400px;
 }
 
@@ -58,44 +58,35 @@ body {
 /* Responsividade da página */
 
 @media screen and (max-width: 600px) {
-    body {
-        font-size: 1em;
-    }
     .video {
-        width: 65%;
-        min-height: 150px;
+        width: 85%;
+        min-height: 200px;
     }
     .link a h3 {
         width: 85%;
-        margin: 3% 7%;
+        margin: 3% 7.5%;
+    }
+    .voltar img {
+        width: 18%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .video {
+        width: 85%;
+        min-height: 300px;
+    }
+    .link a h3 {
+        width: 75%;
+        margin: 3% 12%;
     }
     .voltar img {
         width: 14%;
     }
 }
-@media screen and (min-width: 600px) and (max-width: 768px) {
-    body {
-        font-size: 1.4em;
-    }
-    .video {
-        width: 75%;
-        min-height: 250px;
-    }
-    .link a h3 {
-        width: 70%;
-        margin: 3% 14.5%;
-    }
-    .voltar img {
-        width: 12%;
-    }
-}
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body {
-        font-size: 1.5em;
-    }
     .video {
-        width: 70%;
-        min-height: 300px;
+        width: 85%;
+        min-height: 400px;
     }
     .link a h3 {
         width: 60%;
