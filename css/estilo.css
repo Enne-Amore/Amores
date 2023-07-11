@@ -43,20 +43,47 @@ body {
     }
     .capas {
         margin: 0.8% 6%;
+        flex-direction: column;
+        gap: 18px;
+    }
+    .tudo {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 768px) {
     body {
-        font-size: 0.9em;
+        font-size: 0.85em;
+    }
+    .capas {
+        margin: 0.8% 6%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .tudo {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        font-size: 1em;
+        font-size: 1.1em;
+    }
+    .capas {
+        margin: 0.8% 6%;
+        flex-direction: column;
+        gap: 22px;
+    }
+    .tudo {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     body {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 }

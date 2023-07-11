@@ -58,6 +58,9 @@ body {
 /* Responsividade da página */
 
 @media screen and (max-width: 600px) {
+    body {
+        font-size: 1.2em;
+    }
     .video {
         width: 85%;
         min-height: 200px;
@@ -71,9 +74,6 @@ body {
     }
 }
 @media screen and (min-width: 600px) and (max-width: 768px) {
-    body {
-        font-size: 2em;
-    }
     .video {
         width: 85%;
         min-height: 300px;
@@ -87,9 +87,6 @@ body {
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body {
-        font-size: 2em;
-    }
     .video {
         width: 85%;
         min-height: 400px;
