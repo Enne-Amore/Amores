@@ -75,9 +75,6 @@ body {
         width: 80%;
         margin: 10% auto 7%;
     }
-    .link:active {
-        transition-duration: inherit;
-    }
     .link:hover {
         transition-duration: .1s;
     }
@@ -105,9 +102,6 @@ body {
     .link:hover {
         transition-duration: .1s;
     }
-    .link:active {
-        transition-duration: inherit;
-    }
     .link a h3 {
         width: 85%;
         font-size: 1.5em;
@@ -124,9 +118,6 @@ body {
     .link {
         width: 80%;
         margin: 9% auto 7%;
-    }
-    .link:active {
-        transition-duration: inherit;
     }
     .link:hover {
         transition-duration: .1s;
