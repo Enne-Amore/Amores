@@ -36,9 +36,11 @@ body {
 .link a h3:hover {
     background-color: rgb(32, 32, 32);
     box-shadow: 0px 0px 3px 1px black;
+    transition-duration: .4s;
 }
 .link a h3:active {
     background-color: rgb(20, 20, 20);
+    transition-duration: .1s;
 }
 
 .voltar img {
@@ -50,6 +52,7 @@ body {
 }
 .voltar img:hover {
     box-shadow: 0px 0px 10px 4px #C3C3C3;
+    transition-duration: .1s;
 }
 .voltar img:active {
     box-shadow: 0px 0px 10px 4px #acacac;

@@ -30,9 +30,27 @@ body {
 }
 .capas .capa:hover {
     box-shadow: 0px 0px 30px 5px #ffadad;
+    transition-duration: .1s;
 }
 .capas .capa:active {
     box-shadow: 0px 0px 30px 5px #ff8b8b;
+}
+
+.rodape {
+    margin-top: 5%;
+    margin: 6% auto;
+    text-align: center;
+}
+.rodape a{
+    color: rgb(32, 32, 32);
+}
+.rodape a:hover {
+    color: #686868;
+    transition-duration: .5s;
+}
+.rodape a:active {
+    color: black;
+    transition-duration: inherit;
 }
 
 /* Responsividade da página */
