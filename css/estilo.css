@@ -1,9 +1,16 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'amore';
+    src: url(../fontes/AmoreMIO.ttf) format('truetype');
+}
+
 body {
     background-image: linear-gradient(45deg, #ffadad, #ffd6a5, #fdffb6, #caffbf, #9bf6ff, #a0c4ff, #bdb2ff, #ffc6ff, white);
     background-attachment: fixed;
     max-width: 100%;
     height: auto;
-    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-family: 'amore';
     font-size: 1.7em;
     text-align: center;
 }
