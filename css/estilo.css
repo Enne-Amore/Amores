@@ -3,7 +3,7 @@ body {
     background-attachment: fixed;
     max-width: 100%;
     height: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
     font-size: 1.7em;
     text-align: center;
 }
@@ -57,7 +57,7 @@ body {
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 0.8em;
+        font-size: 1em;
     }
     .capas {
         margin: 0.8% 4.5%;
