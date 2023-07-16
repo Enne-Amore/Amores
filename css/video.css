@@ -7,7 +7,7 @@ body {
     height: auto;
     margin: 0;
     font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -75,9 +75,13 @@ body {
         width: 80%;
         margin: 10% auto 7%;
     }
+    .link:hover {
+        transition-duration: .1s;
+    }
     .link a h3 {
         width: 75%;
         font-size: 1.2em;
+        padding: 1%;
     }
     .voltar img {
         width: 18%;
@@ -95,6 +99,9 @@ body {
         width: 80%;
         margin: 9% auto 7%;
     }
+    .link:hover {
+        transition-duration: .1s;
+    }
     .link a h3 {
         width: 85%;
         font-size: 1.5em;
@@ -111,6 +118,9 @@ body {
     .link {
         width: 80%;
         margin: 9% auto 7%;
+    }
+    .link:hover {
+        transition-duration: .1s;
     }
     .link a h3 {
         padding: 1%;

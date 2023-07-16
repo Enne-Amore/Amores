@@ -57,7 +57,7 @@ body {
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .capas {
         margin: 0.8% 4.5%;
