@@ -5,6 +5,8 @@
     src: url(../fontes/AmoreMIO.ttf) format('truetype');
 }
 
+/* A mente do site */
+
 body {
     background-image: linear-gradient(45deg, #ffadad, #ffd6a5, #fdffb6, #caffbf, #9bf6ff, #a0c4ff, #bdb2ff, #ffc6ff, white);
     background-attachment: fixed;
@@ -18,14 +20,22 @@ body {
     flex-direction: column;
 }
 
+/* O corpo do site */
+/* E o nome do video */
+
 .titulo {
     margin: -1%;
 }
+
+/* O vídeo */
 
 .video {
     width: 52.5%;
     min-height: 400px;
 }
+
+/* Os botões */
+
 .link {
     background-color: black;
     width: 40%;
@@ -51,7 +61,6 @@ body {
     margin: auto;
     color: white;
 }
-
 .voltar img {
     margin-top: -0.5%;
     width: 4%;
