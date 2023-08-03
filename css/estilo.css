@@ -16,6 +16,16 @@ body {
     font-size: 1.7em;
     text-align: center;
 }
+:root {
+    --cor1: #ffadad;
+    --cor2: #ffd6a5;
+    --cor3: #fdffb6;
+    --cor4: #caffbf;
+    --cor5: #9bf6ff;
+    --cor6: #a0c4ff;
+    --cor7: #bdb2ff;
+    --cor8: #ffc6ff;
+}
 
 /* O corpo do site */
 /* E o seu conteúdo em si */
@@ -42,11 +52,11 @@ body {
     height: auto;
 }
 .capas .capa:hover {
-    box-shadow: 0px 0px 30px 5px #ffadad;
+    box-shadow: 0px 0px 30px 5px var(--cor1);
     transition-duration: .1s;
 }
 .capas .capa:active {
-    box-shadow: 0px 0px 30px 5px #ff8b8b;
+    box-shadow: 0px 0px 30px 5px  var(--cor2);
 }
 
 /* O rodapé do site */
