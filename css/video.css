@@ -55,7 +55,7 @@ body {
 .link a {
     text-decoration: none;
 }
-.link a h3 {
+.link a p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     margin: auto;
@@ -80,11 +80,11 @@ body {
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 1.3em;
+        font-size: 8vw;
     }
     .video {
-        width: 85%;
-        min-height: 200px;
+        width: 90vw;
+        min-height: 50vw;
     }
     .link {
         width: 80%;
@@ -93,9 +93,9 @@ body {
     .link:hover {
         transition-duration: .1s;
     }
-    .link a h3 {
+    .link a p {
         width: 75%;
-        font-size: 1.2em;
+        font-size: 8vw;
         padding: 1%;
     }
     .voltar img {
@@ -117,7 +117,7 @@ body {
     .link:hover {
         transition-duration: .1s;
     }
-    .link a h3 {
+    .link a p {
         width: 85%;
         font-size: 1.5em;
     }
@@ -137,7 +137,7 @@ body {
     .link:hover {
         transition-duration: .1s;
     }
-    .link a h3 {
+    .link a p {
         padding: 1%;
         width: 75%;
         font-size: 1.7em;
