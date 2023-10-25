@@ -62,7 +62,6 @@ body {
 /* O rodapé do site */
 
 .rodape {
-    margin-top: 5%;
     margin: 6% auto;
     text-align: center;
 }
@@ -97,7 +96,7 @@ body {
     }
     .rodape {
         font-size: 6vw;
-        margin-top: 13%;
+        margin: 13% auto 16%;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 768px) {
@@ -116,7 +115,7 @@ body {
         margin-top: 5%;
     }
     .rodape {
-        margin-top: 8%;
+        margin: 13% auto 16%;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -135,7 +134,7 @@ body {
         margin-top: 5%;
     }
     .rodape {
-        margin-top: 8%;
+        margin: 13% auto 16%;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
