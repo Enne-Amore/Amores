@@ -1,12 +1,12 @@
 @charset 'UTF-8';
 
+/* Importação de fonte */
 @font-face {
     font-family: 'amore';
     src: url(../fontes/AmoreMIO.ttf) format('truetype');
 }
 
 /* A mente do site */
-
 body {
     background-image: linear-gradient(45deg, #ffadad, #ffd6a5, #fdffb6, #caffbf, #9bf6ff, #a0c4ff, #bdb2ff, #ffc6ff, white);
     background-attachment: fixed;
@@ -23,20 +23,17 @@ body {
 
 /* O corpo do site */
 /* E o nome do video */
-
 .titulo {
     margin: -1%;
 }
 
 /* O vídeo */
-
 .video {
     width: 52.5%;
     min-height: 400px;
 }
 
 /* Os botões */
-
 .link {
     background-color: black;
     width: 40%;
@@ -55,13 +52,12 @@ body {
 }
 .link a {
     text-decoration: none;
-}
-.link a p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     margin: auto;
     color: white;
 }
+
 .voltar img {
     margin-top: -0.5%;
     width: 4%;
@@ -69,7 +65,11 @@ body {
     border-radius: 50%;
     overflow: hidden;
 }
-.voltar img:hover {
+.voltar a:focus-visible {
+    outline: 0;
+}
+.voltar img:hover,
+.voltar a:focus-visible img {
     box-shadow: 0px 0px 10px 4px #C3C3C3;
     transition-duration: .1s;
 }
@@ -78,7 +78,6 @@ body {
 }
 
 /* Responsividade da página */
-
 @media screen and (max-width: 600px) {
     body {
         font-size: 8vw;

@@ -16,6 +16,9 @@ body {
     font-size: 1.7em;
     text-align: center;
 }
+:focus {
+    outline: 0;
+}
 :root {
     --cor1: #ffadad;
     --cor2: #ffd6a5;
@@ -33,6 +36,7 @@ body {
 .guia {
     border-bottom: 2px solid #000000;
     margin: 2%;
+    font-size: 1.7em;
 }
 .capas {
     display: flex;
@@ -51,7 +55,8 @@ body {
     width: 100%;
     height: auto;
 }
-.capas .capa:hover {
+.capas .capa:hover,
+.capas a:focus-visible .capa {
     box-shadow: 0px 0px 30px 5px var(--cor1);
     transition-duration: .1s;
 }
@@ -62,13 +67,24 @@ body {
 /* O rodapé do site */
 
 .rodape {
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.137);
+    width: max-content;
     margin: 6% auto;
+    padding: 0.1% 2.5%;
+    border-radius: 1em;
     text-align: center;
+    font-size: 1.2em;
 }
-.rodape a{
-    color: rgb(32, 32, 32);
+.rodape a {
+    color: #202020;
 }
-.rodape a:hover {
+.rodape a:focus-visible {
+    outline: auto;
+    padding: 0.2em;
+}
+.rodape a:hover,
+.rodape a:focus-visible {
     color: #686868;
     transition-duration: .5s;
 }
